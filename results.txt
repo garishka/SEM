@@ -3,7 +3,7 @@ Results for the 1-degree polynomial fit of the data
 Model parameter, highest power first: [  -55.08915006 15140.90882074]
 Covariant matrix of the parameters: [[7.99462640e-01 1.05828867e-03]
  [1.05828867e-03 4.05396212e-05]]
-Model AIC: 8.606639045284684
+Model AIC: 8.856639045284684
 ======================================================
 Note: the coefficients are calculated with numpy's polyfit.
  
@@ -13,7 +13,7 @@ Model parameter, highest power first: [ -386.74321197   -56.24021991 15140.92690
 Covariant matrix of the parameters: [[ 2.48582170e+02  7.39858986e-01 -1.16258624e-02]
  [ 7.39858986e-01  1.01084756e-02 -2.41361096e-05]
  [-1.16258624e-02 -2.41361096e-05  9.44649831e-07]]
-Model AIC: 13.655225090587843
+Model AIC: 13.905225090587843
 ======================================================
 Note: the coefficients are calculated with numpy's polyfit.
  
@@ -24,6 +24,6 @@ Covariant matrix of the parameters: [[ 1.60519601e+07  6.97923723e+04 -1.1957503
  [ 6.97923723e+04  5.94580705e+02 -4.33251158e+00 -2.10312635e-02]
  [-1.19575033e+03 -4.33251158e+00  1.00913080e-01  9.87819351e-05]
  [-1.70553120e+00 -2.10312635e-02  9.87819351e-05  1.28755262e-06]]
-Model AIC: 13.970371471717616
+Model AIC: 14.220371471717616
 ======================================================
 Note: the coefficients are calculated with numpy's polyfit.

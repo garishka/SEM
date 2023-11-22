@@ -53,7 +53,7 @@ def aic(data, model_data, num_params):
 def results(x, y, deg):
     model_params, cov_matrix = np.polyfit(x, y, deg, cov=True)
     model_data = np.polyval(model_params, x)
-    model_aic = aic(y, model_data,deg)
+    model_aic = aic(y, model_data,(deg+1))
     results_log = f"Results for the {deg}-degree polynomial fit of the data\n" \
                   f"=======================================================\n" \
                   f"Model parameter, highest power first: {model_params}\n" \
